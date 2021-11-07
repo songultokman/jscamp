@@ -1,6 +1,5 @@
 
 function isPrime(...numbers) {
-   
     let prime=true
 
     for (let j = 0; j < numbers.length; j++) {

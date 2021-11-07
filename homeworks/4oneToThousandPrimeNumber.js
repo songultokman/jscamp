@@ -22,4 +22,5 @@ let findPrime=function() {
     } 
 }
 
+
 findPrime()

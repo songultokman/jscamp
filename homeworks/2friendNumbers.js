@@ -12,6 +12,7 @@ function isFriendNumber(number1,number2){
    }
 }
    
+
 function calculateSubNumber(number){
    
     let total=0
