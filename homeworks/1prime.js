@@ -7,7 +7,7 @@ function isPrime(...numbers) {
          
         if(numbers[j]==1 || numbers[j]==0){
             console.log("lütfen geçerli bir sayı girin")
-
+        
            }else{
 
               for (let i = 2; i<numbers[j]; i++ ) {

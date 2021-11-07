@@ -11,7 +11,7 @@ function isFriendNumber(number1,number2){
        console.log(number1 +" ve "+ number2 +" sayıları arkadaş sayı değildir.")
    }
 }
-
+   
 function calculateSubNumber(number){
    
     let total=0
