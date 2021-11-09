@@ -1,11 +1,13 @@
 
-function isPrime(...numbers) {
-    let prime=true
 
+function isPrime(...numbers) {
+   
     for (let j = 0; j < numbers.length; j++) {
-         
-        if(numbers[j]==1 || numbers[j]==0){
-            console.log("lütfen geçerli bir sayı girin")
+       
+        let prime=true
+
+        if(numbers[j]<=1){
+            console.log(numbers[j] + " sayısı geçersizdir. Lütfen geçerli bir sayı girin!")
         
            }else{
 
@@ -17,11 +19,7 @@ function isPrime(...numbers) {
                   prime=false
                   break
                 }
-                else{
-                  prime=true
-                }
-              }  
-         
+             }  
           if(prime==true)  
           {
               console.log(numbers[j] + " sayısı asaldir.")
@@ -31,6 +29,6 @@ function isPrime(...numbers) {
       
 }
 
-isPrime(3)
-isPrime(10,43,32,79)
-isPrime(11,5,20,100,1000)
+isPrime(-10)
+isPrime(10,43,32,79,1)
+isPrime(0,11,5,20,100,1000)
